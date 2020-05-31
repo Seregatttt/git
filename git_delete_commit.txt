@@ -1,7 +1,13 @@
-Если это последний коммит в ветке, то :
+Р•СЃР»Рё СЌС‚Рѕ РїРѕСЃР»РµРґРЅРёР№ РєРѕРјРјРёС‚ РІ РІРµС‚РєРµ, С‚Рѕ :
 
-Удалить его локально
+РЈРґР°Р»РёС‚СЊ РµРіРѕ Р»РѕРєР°Р»СЊРЅРѕ
 git reset HEAD~1 --hard
 
-Сделать force push на сервер
+РЎРґРµР»Р°С‚СЊ force push РЅР° СЃРµСЂРІРµСЂ
 git push -f1
+
+git remote add server https://github.com/Seregatttt/lunchvoting.git
+
+git push --force origin master
+
+
