@@ -11,3 +11,6 @@ git remote add server https://github.com/Seregatttt/lunchvoting.git
 git push --force origin master
 
 
+test
+
+
